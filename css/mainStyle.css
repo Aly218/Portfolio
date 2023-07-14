@@ -26,6 +26,7 @@ body {
 	font-family: FreightBig,Serif,Arial,Sans-Serif;
   font-size: 35px;
 	color: white;
+	margin: 0;
 }
 
 /* Style the top navigation bar */
@@ -162,6 +163,5 @@ body {
   .wrapper, .header, .topnav, .leftcolumn, .rightcolumn {   
 	  float: none;
     width: 100%;
-    padding: 0;
   }
 }
