@@ -104,7 +104,7 @@ li{
 
 #container-2 {
   #background-color: #FAF9F6;
-	float: left;
+  float: left;
   width: 65%;
   margin: 0 0 0 36px;
 }
@@ -175,6 +175,8 @@ li{
   border: 3px solid black;
   border-radius: 8px;
 }
+
+*/
 
 /*CSS for page 2*/
 #wrapper-page2 {
