@@ -160,11 +160,11 @@ body {
 	.dropdown {
   float: none;
   overflow: hidden;
+	}
 	
 	.dropdown-content {
   min-width: 20px;
   }
-}
 
 }
 
