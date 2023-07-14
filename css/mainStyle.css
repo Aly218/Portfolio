@@ -163,7 +163,7 @@ body {
 	}
 	
 	.dropdown-content {
-  min-width: 20px;
+    width: 20px;
   }
 
 }
