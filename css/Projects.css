@@ -16,12 +16,11 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  
- float: none;
-    width:  175px;
-    height: 175px;
-    object-fit: cover;
-		margin-top: 5px;
+  float: none;
+	width:  175px;
+	height: 175px;
+	object-fit: cover;
+	margin-top: 5px;
 }
 
 div.desc {
@@ -58,3 +57,16 @@ div.desc {
   clear: both;
 }
 
+@media screen and (max-width: 800px) {
+	div.test{
+	display: grid;
+  }
+
+  div.gallery img {
+		float: none;
+		width:  200px;
+		height: 200px;
+		object-fit: cover;
+		margin-top: 5px;
+  }
+}
