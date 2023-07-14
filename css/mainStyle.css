@@ -7,6 +7,7 @@ body {
   font-family: Benton-Book,Arial,Sans-Serif;
   padding: 0p;
   background: white;
+	line-height: 2em;
 }
 .wrapper {
 	  padding-right: 10%;
@@ -152,7 +153,7 @@ body {
     padding: 0;
   }
 	#logo{
-		width: 250px;
+		width: 200px;
 		height: 200px;
 	}
 	
