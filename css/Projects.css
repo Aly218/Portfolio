@@ -112,15 +112,12 @@ div.desc {
   overflow: hidden;
   }
 	
-	.col-left, .col-right, .card{
+	.col-left, .col-right, .card, #iframe{
 	float: none;
 	width: 100%;
 	padding: 0;
 
-	
-	
 
-	
 }
 
 
