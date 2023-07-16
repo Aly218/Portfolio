@@ -74,10 +74,7 @@ div.desc {
 	text-align: left;
 }
 
-.leftcolumn {   
-  float: none;
-  width: 100%;
-}
+
 .test{
 	clear: both;
 }
@@ -105,10 +102,6 @@ div.desc {
 }
 
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
 	#logo{
 		width: 200px;
 		height: 200px;
@@ -119,10 +112,14 @@ div.desc {
   overflow: hidden;
   }
 	
-	.col-left, .col-right {
+	.col-left, .col-right, .card{
 	float: none;
 	width: 100%;
-	clear: both;
+	padding: 0;
+
+	
+	
+
 	
 }
 
