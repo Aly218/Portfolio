@@ -78,22 +78,25 @@ div.desc {
   float: none;
   width: 100%;
 }
-
-.col1 {
+.test{
+	clear: both;
+}
+.col-left {
 	float: left;
 	width: 50%;
-	padding-right: 50px;
+	
+	padding-right: 100px;
+	
 }
 
-.col2 {
-	float: left;
+.col-right {
+	float: right;
 	width: 50%;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 
-.card3{
-	clear:both;
-}
+
+
 
 .content {
   content: "";
@@ -116,8 +119,11 @@ div.desc {
   overflow: hidden;
   }
 	
-	.col1, .col2 {
+	.col-left, .col-right {
 	float: none;
 	width: 100%;
+	clear: both;
 	
 }
+
+
