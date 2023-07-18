@@ -272,7 +272,7 @@ header, footer, #two-column, #one-column {
          /*Media Query for low resolution  Tablets, Ipads*/
         @media screen and (max-width: 600px) {
             body {
-                background-color: teal;
+                background-color: yellow;
             }
 
 						header, footer, #two-column, #one-column {
@@ -302,9 +302,10 @@ header, footer, #two-column, #one-column {
           
          /*Media Query for Tablets Ipads portrait mode*/
         @media (min-width: 768px) and (max-width: 1024px){
-            body {
+            /*
+						body {
                 background-color: blue;
-            }
+            }*/
 						
 						header, footer, #two-column, #one-column {
 							padding-right: 10%;
@@ -318,9 +319,10 @@ header, footer, #two-column, #one-column {
           
          /*Media Query for Laptops and Desktops */
         @media (min-width: 1025px) and (max-width: 1280px){
-            body {
+            /*
+						body {
                 background-color: green;
-            }
+            }*/
 						
 						 header, footer, #two-column, #one-column {
 							padding-right: 15%;
