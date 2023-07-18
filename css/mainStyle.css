@@ -217,12 +217,12 @@ header, footer, #two-column, #one-column {
 /* Media Queries */
           
 /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
+@media screen and (max-width: 766px) {
 	body {
 			background-color: yellow;
 	}
 
-	header, footer, #two-column, #one-column {
+	#header, #footer, #two-column, #one-column {
 		padding-right: 10%;
 		padding-left: 10%;
 	}
@@ -237,7 +237,7 @@ header, footer, #two-column, #one-column {
 		margin: 0 auto;
 	}
 
-	#logo{
+	#logo, #profile{
 		width: 100px;
 		height: 100px;
 	}
@@ -249,7 +249,7 @@ header, footer, #two-column, #one-column {
 			background-color: pink;
 	}
 	
-	header, footer, #two-column, #one-column {
+	#header, #footer, #two-column, #one-column {
 		padding-right: 10%;
 		padding-left: 10%;
 	}
@@ -265,7 +265,7 @@ header, footer, #two-column, #one-column {
 			background-color: teal;
 	  }
 		 
-		 header, footer, #two-column, #one-column {
+		 #header, #footer, #two-column, #one-column {
 			padding-right: 15%;
 			padding-left: 15%;
 		}
