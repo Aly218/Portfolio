@@ -276,8 +276,8 @@ header, footer, #two-column, #one-column {
             }
 
 						header, footer, #two-column, #one-column {
-							padding-right: 5%;
-							padding-left: 5%;
+							padding-right: 10%;
+							padding-left: 10%;
 						}
 	
 						p {
@@ -294,11 +294,6 @@ header, footer, #two-column, #one-column {
 						#logo{
 							width: 200px;
 							height: 200px;
-						}
-	
-						.dropdown {
-						float: none;
-						overflow: hidden;
 						}
         }
           
