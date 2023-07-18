@@ -272,7 +272,7 @@ header, footer, #two-column, #one-column {
          /*Media Query for low resolution  Tablets, Ipads*/
         @media (min-width: 481px) and (max-width: 767px) {
             body {
-                background-color: pink;
+                background-color: yellow;
             }
 
 						header, footer, #two-column, #one-column {
