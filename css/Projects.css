@@ -1,3 +1,38 @@
+.p1{
+	font-size: 25px;
+	text-align: left;
+}
+
+
+.test{
+	clear: both;
+}
+.col-left {
+	float: left;
+	width: 50%;
+	
+	padding-right: 100px;
+	
+}
+
+.col-right {
+	float: right;
+	width: 50%;
+  padding-left: 100px;
+}
+
+
+
+
+.content {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
 /*CSS for Images*/
 div.gallery {
   border: 3px solid #957C3D;
@@ -54,8 +89,11 @@ div.desc {
   display: table;
   clear: both;
 }
-/*Media query to resize image in mobile view*/
+
+
+/*Media queries for mobile view*/
 @media screen and (max-width: 800px) {
+	/*Resize images*/
 	div.test{
 	display: grid;
   }
@@ -67,57 +105,12 @@ div.desc {
 		object-fit: cover;
 		margin-top: 5px;
   }
-}
-
-.p1{
-	font-size: 25px;
-	text-align: left;
-}
-
-
-.test{
-	clear: both;
-}
-.col-left {
-	float: left;
-	width: 50%;
 	
-	padding-right: 100px;
-	
-}
-
-.col-right {
-	float: right;
-	width: 50%;
-  padding-left: 100px;
-}
-
-
-
-
-.content {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 800px) {
-	#logo{
-		width: 200px;
-		height: 200px;
-	}
-	
-	.dropdown {
-  float: none;
-  overflow: hidden;
-  }
-	
+	/*Resize to fit in mobile view*/
 	.col-left, .col-right, .card, #iframe{
 	float: none;
 	width: 100%;
 	padding: 0;
-
-
 }
 
 
