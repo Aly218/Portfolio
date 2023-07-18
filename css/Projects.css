@@ -1,20 +1,35 @@
-
-
-section::after {
-  content: "";
-  display: table;
-  clear: both;
+.p1{
+	font-size: 25px;
+	text-align: left;
 }
 
-section{
-	margin-top: 150px;
+
+.test{
+	clear: both;
 }
+.col-left {
+	float: left;
+	width: 50%;
+	
+	padding-right: 100px;
+	
+}
+
+.col-right {
+	float: right;
+	width: 50%;
+  padding-left: 100px;
+}
+
+
+
 
 .content {
   content: "";
   display: table;
   clear: both;
 }
+<<<<<<< HEAD
 
 
 .i-contain {
@@ -36,6 +51,8 @@ section{
 }
 
 
+=======
+>>>>>>> parent of e19e218 (update pages)
 
 
 
@@ -57,9 +74,10 @@ div.gallery:hover {
 
 div.gallery img {
   float: none;
-	width:  100%;
-	height: auto;
-	object-fit: contain;
+	width:  250px;
+	height: 250px;
+	object-fit: cover;
+	margin-top: 5px;
 }
 
 div.desc {

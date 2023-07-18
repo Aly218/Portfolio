@@ -1,93 +1,48 @@
-/*Base Styles*/
+/*CSS for all pages*/
 * {
   box-sizing: border-box;
 }
 
-html{
-	font-family: Benton-Book,Arial,Sans-Serif;
-  padding: 0;
-	background-color: white;
-}
-
 body {
-	font-size: 1.1875em;         /* ~ 19px base font size */
-  line-height: 1.2631578947em; /* ~ 24px base line height */
+  font-family: Benton-Book,Arial,Sans-Serif;
+  padding: 0p;
+  background: white;
+	line-height: 2em;
+}
+.wrapper {
+	  padding-right: 10%;
+    padding-left: 10%;
 }
 
-b, strong{
-  font-weight: bold;
-}
-
-cite,
-em,
-i {
-  font-style: italic;
-}
-
-p {
-  padding-bottom: 1.2631578947em;
-	margin-top: 0;
-	margin-bottom: 15px;
-	font-size: 16px;
-	line-height: 26px;
-}
-
-h1 {
-  font-size: 36px;
-  line-height: 38px;
-}
-h2 {
-  font-size: 34px; 
-  line-height: 36px;
-}
-h3 {
-  font-size: 22px; 
-  line-height: 28px;
-}
-h4 {
-  font-size: 20px; 
-  line-height: 26px;
-}
-
-h5 {
-  font-size: 18px; 
-  line-height: 22px;
-}
-
-h6 {
-  font-size: 12px; 
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: 0.28125rem;
-  line-height: 16px;
-	color: #737373;
-}
-
-/*Layout*/
-header {
-	padding: 30px;
+/* Header/Blog Title */
+.header {
+  padding: 30px;
   text-align: center;
   background: #002349;
   border-bottom: 10px solid #957C3D;
   width: 100%;
-	margin-bottom:20px;
+}
+
+.header h1 {
+	font-family: FreightBig,Serif,Arial,Sans-Serif;
+  font-size: 35px;
+	color: white;
+	margin: 0;
 }
 
 
 /* Style the top navigation bar */
-#navigation{
-	width: 100%;
-	
-}
 .topnav {
+  margin: 0;
   overflow: hidden;
   background-color: #001731;
+  width: 100%;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
-  font-size: 16px;
+  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -121,7 +76,8 @@ header {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: absolute
+	text-align: center;
   background-color: #f9f9f9;
   min-width: 75px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -145,8 +101,42 @@ header {
   display: block;
 }
 
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 30px;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 100px;
+	clear: both;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Footer */
-#footer {
+.footer {
 	font-family: FreightBig,Serif,Arial,Sans-Serif;
   padding: 20px;
   text-align: center;
@@ -156,6 +146,7 @@ header {
 }
 
 
+<<<<<<< HEAD
 /*Main content*/
 
 section{
@@ -278,14 +269,16 @@ section::after {
 
 
 
+=======
+>>>>>>> parent of e19e218 (update pages)
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-/*
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
   }
 	
+	/*Resize logo*/
 	#logo{
 		width: 200px;
 		height: 200px;
@@ -299,17 +292,9 @@ section::after {
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-/*
 @media screen and (max-width: 400px) {
   .topnav a, .dropdown, .dropbtn {
     float: none;
     width: 100%;
   }
 }
-
-
-
-
-
-
-
