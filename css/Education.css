@@ -1,27 +1,7 @@
-#column1-fluid {
-
-	float: left;
-	width: 50%;
-	
-	padding-right: 100px;
-
-}
-#column2-fluid {
-	float: right;
-	width: 50%;
-	
-	padding-left: 100px;
-	
-}
-
-
-
 table{
   border-collapse: collapse;
   border: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
+  width: 100%;
 }
 
 td, th {
@@ -31,7 +11,7 @@ td, th {
 
 table th{
   padding: 10px;
-  background-color: #9DC88D;
+  background-color: #CBAF87;
   border: 0px;
 }
 
@@ -40,32 +20,11 @@ table td{
 }
 
 .row1{
-  background-color: #F8F8F8;
+  background-color: #F5F5F5
 } 
 
 .row2{
-  background-color: #68B187;
+  background-color: white;
 }
 
-tr:hover td{
-  background-color: #FFF1CB;
-	
-	.content {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-.col-left {
-	float: left;
-	width: 50%;
-	
-	padding-right: 100px;
-	
-}
-
-.col-right {
-	float: right;
-	width: 50%;
-  padding-left: 100px;
-}

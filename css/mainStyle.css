@@ -1,4 +1,4 @@
-/*Base Styles*/
+/* Base Styles */
 * {
   box-sizing: border-box;
 }
@@ -6,7 +6,6 @@
 html{
 	font-family: Benton-Book,Arial,Sans-Serif;
   padding: 0;
-	background-color: pink;
 }
 
 body {
@@ -18,9 +17,7 @@ b, strong{
   font-weight: bold;
 }
 
-cite,
-em,
-i {
+cite, em, i {
   font-style: italic;
 }
 
@@ -33,6 +30,7 @@ p {
 }
 
 h1 {
+	color: #001731;
   font-size: 36px;
   line-height: 38px;
 }
@@ -41,6 +39,7 @@ h2 {
   line-height: 36px;
 }
 h3 {
+	color: #001731;
   font-size: 22px; 
   line-height: 28px;
 }
@@ -60,25 +59,35 @@ h6 {
 	font-weight: 400;
 	letter-spacing: 0.28125rem;
   line-height: 16px;
-	color: #737373;
+	color: #666666;
+	font-weight: bold;
 }
 
-/*Layout*/
+
+
+
+
+
+
+
+
+
+/* Layout */
 header {
 	padding: 30px;
   text-align: center;
   background: #002349;
   border-bottom: 10px solid #957C3D;
   width: 100%;
-	margin-bottom:20px;
+	margin-bottom: 50px;
+	
 }
-
 
 /* Style the top navigation bar */
 #navigation{
 	width: 100%;
-	
 }
+
 .topnav {
   overflow: hidden;
   background-color: #001731;
@@ -102,7 +111,7 @@ header {
   text-underline-position: under;
 }
 
-/*CSS for dropdown menu*/
+/* CSS for dropdown menu */
 .dropdown {
   float: left;
   overflow: hidden;
@@ -153,13 +162,21 @@ header {
   background-color: #002349;
   margin-top: 20px;
 	color: white;
+	margin-top: 50px;
 }
 
 
-/*Main content*/
 
+
+
+
+
+
+
+
+/* Main content */
 section{
-	margin-top: 150px;
+	margin-top: 125px;
 }
 
 section::after {
@@ -185,186 +202,74 @@ section::after {
 header, footer, #two-column, #one-column {
 	padding-right: 20%;
 	padding-left: 20%;
-
 }
+
+
+
+
+
+
+
+
 
 
 /* Media Queries */
-
-
-
-/* @650px 
-
-@media screen and (min-width: 40.625em) {
-	
-  html {
-    padding: 0;
-  }
-	
-  header, footer, #two-column, #one-column {
-    padding-right: 5%;
-    padding-left: 5%;
-  }
-	
-  p {
-    width: 50%;
-  }
- 
-  
-  
-}
-
-/* @685px */
-/*
-@media screen and (min-width: 42.8125em) {
-	#content{
-		background-color: green;
+          
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+	body {
+			background-color: yellow;
 	}
-	
-  header, footer, #two-column, #one-column {
-    padding-right: 10%;
-    padding-left: 10%;
-  }
-	
-  p {
-    width: 75%;
-  }
-  
-  #column-left {
 
-	background-color: yellow;
-	
-}
-
-#column-right {
-	
-	background-color: red;
-}
-  
-}
-
-/* @930px */
-/*
-@media screen and (min-width: 58.125em) {
-	
-	#content{
-		background-color: pink;
+	header, footer, #two-column, #one-column {
+		padding-right: 10%;
+		padding-left: 10%;
 	}
-	
-  header, footer, #two-column, #one-column {
-    padding-right: 20%;
-    padding-left: 20%;
-  }
-	
+
 	p {
-    width: 100%;
-  }
-	
-	
-	
- 
-}
-
-
- /* Media Query for Mobile Devices */ 
-        
-          
-         /*Media Query for low resolution  Tablets, Ipads*/
-        @media screen and (max-width: 600px) {
-            body {
-                background-color: yellow;
-            }
-
-						header, footer, #two-column, #one-column {
-							padding-right: 10%;
-							padding-left: 10%;
-						}
-	
-						p {
-							width: 100%;
-						}
-					  
-						#column-left, #column-right {
-							float: none;
-							width: 100%;
-							margin: 0 auto;
-
-						}
-
-					  
-						#logo{
-							width: 170px;
-							height: 170px;
-						}
-
-
-        }
-          
-         /*Media Query for Tablets Ipads portrait mode*/
-        @media (min-width: 768px) and (max-width: 1024px){
-            /*
-						body {
-                background-color: blue;
-            }*/
-						
-						header, footer, #two-column, #one-column {
-							padding-right: 10%;
-							padding-left: 10%;
-						}
-	
-						p {
-							width: 75%;
-						}
-        }
-          
-         /*Media Query for Laptops and Desktops */
-        @media (min-width: 1025px) and (max-width: 1280px){
-            /*
-						body {
-                background-color: green;
-            }*/
-						
-						 header, footer, #two-column, #one-column {
-							padding-right: 15%;
-							padding-left: 15%;
-						}
-						
-						p {
-							width: 100%;
-						}
-						
-        }
-          
-      
-
-		
-
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-/*
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-	
-	#logo{
-		width: 200px;
-		height: 200px;
+		width: 100%;
 	}
 	
-	.dropdown {
-  float: none;
-  overflow: hidden;
-  }
+	#column-left, #column-right {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
 
+	#logo{
+		width: 170px;
+		height: 170px;
+	}
 }
+	
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 767px) and (max-width: 1024px){
+	body {
+			background-color: pink;
+	}
+	
+	header, footer, #two-column, #one-column {
+		padding-right: 10%;
+		padding-left: 10%;
+	}
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-/*
-@media screen and (max-width: 400px) {
-  .topnav a, .dropdown, .dropbtn {
-    float: none;
-    width: 100%;
-  }
+	p {
+		width: 75%;
+	}
+}
+	
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+	   body {
+			background-color: teal;
+	  }
+		 
+		 header, footer, #two-column, #one-column {
+			padding-right: 15%;
+			padding-left: 15%;
+		}
+		
+		p {
+			width: 100%;
+		}
 }

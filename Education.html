@@ -3,172 +3,466 @@
 <head>
   <meta charset="utf-8">
   <title>Resume Website</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  
 	<link rel="stylesheet" href="css/mainStyle.css">
   <link rel="stylesheet" href="css/Education.css">
-  
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lilita+One&display=swap" rel="stylesheet">
-  <script async src="js/script.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>  
+	<link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
 <body>
-
-
-			
-<div class="topnav">
-	<a href="About Me.html">About Me</a>
-
-	<a href="#">Education</a>
+  <div id="page">
 	
-	<div class="dropdown">
-    <button class="dropbtn">Projects
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="Projects.html">Aztec Chess Set</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-	</div>
-	
-</div>
-
-<div class="header">
-  <img id="logo" src="images/logo.png" alt="logo">
-</div>
-	
-<div class="wrapper">
-
-		<div class="content">
+		<nav id="navigation">
+			<div class="topnav">
+				<a href="About Me.html">About Me</a>
+				<a href="Education.html">Education</a>
+				<div class="dropdown">
+					<button class="dropbtn">Projects
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="Projects.html">Aztec Chess Set</a>
+						<a href="#">MSI Internship</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+			</div>
+		</nav>
 		
+		<header id="header">
+		  <img id="logo" src="images/logo.png" alt="logo">
+		</header>
 		
-      <div class="card">
-			<div class="col-left">
-				<h2>Education History</h2>
-				<div id="column1-fluid">
-    <h2 class="page3-h2">Fall 2022</h2>
-    <table>
-      <tr>
-        <th>Course</th>
-        <th>Title</th>
-      </tr>
-      <tr class="row1">
-        <td>CS 100</td>
-        <td>Intro to the Profession</td>
-      </tr>
-      <tr class="row2">
-        <td>HUM 200</td>
-        <td>Love in the Ancient World</td>
-      </tr>
-      <tr class="row1">
-        <td>ITM 301</td>
-        <td>Intro to OS and Hardware I</td>
-      </tr>
-      <tr class="row2">
-        <td>ITM 311</td>
-        <td>Intro to Software Development</td>
-      </tr>
-      <tr class="row1">
-        <td>MATH 148</td>
-        <td>Preparation for Calculus</td>
-      </tr>
-      <tr class="row2">
-        <td>SPAN 101</td>
-        <td>Elementary Spanish I</td>
-      </tr>
-      <tr class="row1">
-        <td>SPAN 102</td>
-        <td>Elementary Spanish II</td>
-      </tr>
-    </table>
+    <main id="content">
+		  <section id="one-column">
+			  <article>
+				  <h1>Course History</h1>
+				</article>
+			</section>
+			
+			<section id="two-column">
+				<article id="column-left">		
+					<h6>Fall 2022</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td>ITM 301</td>
+							<td>Intro to OS and Hardware I</td>
+						</tr>
+						<tr class="row2">
+							<td>ITM 311</td>
+							<td>Intro to Software Development</td>
+						</tr>
+						<tr class="row1">
+							<td>CS 100</td>
+							<td>Intro to the Profession</td>
+						</tr>
+						<tr class="row2">
+							<td>HUM 200</td>
+							<td>Love in the Ancient World</td>
+						</tr>
+						<tr class="row1">
+							<td>SPAN 101</td>
+							<td>Elementary Spanish I</td>
+						</tr>
+						<tr class="row2">
+							<td>SPAN 102</td>
+							<td>Elementary Spanish II</td>
+						</tr>
+						<tr class="row1">
+							<td>MATH 148</td>
+							<td>Preparation for Calculus</td>
+						</tr>
+			
+					</table>
+				</article>
+						
+				<article id="column-right">	  
+					<h6>Spring 2023</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						
+						<tr class="row1">
+							<td>ITM 303</td>
+							<td>Intro to OS and Hardware II</td>
+						</tr>
+						
+						<tr class="row2">
+							<td>ITM 313</td>
+							<td>Intro to Open Source App Dev</td>
+						</tr>
+						<tr class="row1">
+							<td>ITM 497</td>
+							<td>Special Projects</td>
+						</tr>
+						<tr class="row2">
+							<td>ITMD 361</td>
+							<td>Fund of Web Development</td>
+						</tr>
+						
+						<tr class="row1">
+							<td>EG 225</td>
+							<td>Eng Graphics for Non&#8211;Engineers</td>
+						</tr>
+						<tr class="row2">
+							<td>MATH 180</td>
+							<td>Fundamentals of Discrete Math</td>
+						</tr>
+					</table> 
+				</article>
+			</section>
+			
+			<section id="one-column">
+			  <article>
+				  <h6>Summer 2023</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td>PHYS 120</td>
+							<td>Astronomy (Astronomy 201 at CCC)</td>
+						</tr>
+						<tr class="row2">
+							<td>PSYC 301</td>
+							<td>Industrial Psychology (PSYCH 206 at CCC)</td>
+						</tr>
+					</table>
+				</article>
+			</section>
+			
+			<section id="two-column">
+				<article id="column-left">		
+					<h6>Fall 2023</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td>ITMD 362</td>
+							<td>Human-Computer Interaction and Web Design</td>
+						</tr>
+						<tr class="row2">
+							<td>ITMD 411</td>
+							<td>Intermediate Software Development</td>
+						</tr>
+						<tr class="row1">
+							<td>ITMT 330</td>
+							<td>Intro to Info Systems and IT</td>
+						</tr>
+						<tr class="row2">
+							<td>ITM 497</td>
+							<td>Special Projects</td>
+						</tr>
+						<tr class="row1">
+							<td>PHYS 200</td>
+							<td>Introduction to Energy, Waves, Materials, and Forces</td>
+						</tr>
+						<tr class="row2">
+							<td>SSCI 225</td>
+							<td>Introduction to Geographic Information Systems</td>
+						</tr>
+					</table>
+				</article>
+						
+				<article id="column-right">	  
+					<h6>Spring 2024</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+					</table> 
+				</article>
+			</section>
+			
+			<section id="one-column">
+			  <article>
+				  <h6>Summer 2024</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</article>
+			</section>
+			
+			<section id="two-column">
+				<article id="column-left">		
+					<h6>Fall 2024</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</article>
+						
+				<article id="column-right">	  
+					<h6>Spring 2025</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+					</table> 
+				</article>
+			</section>
+			
+			<section id="one-column">
+			  <article>
+				  <h6>Summer 2025</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</article>
+			</section>
+			
+			
+			<section id="two-column">
+				<article id="column-left">		
+					<h6>Fall 2025</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</article>
+						
+				<article id="column-right">	  
+					<h6>Spring 2026</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+					</table> 
+				</article>
+			</section>
+			
+			<section id="one-column">
+			  <article>
+				  <h6>Summer 2026</h6>
+					<table>
+						<tr>
+							<th>Course</th>
+							<th>Title</th>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row2">
+							<td></td>
+							<td></td>
+						</tr>
+						<tr class="row1">
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</article>
+			</section>
+			
+			
+			
+			
+	
+		<footer id="footer">
+			<h2>Footer</h2>
+		</footer>
+		
   </div>
-			</div>
-			
-			<div class="col-right">
-				<div id ="column2-fluid">
-    <h2 class="page3-h2">Spring 2023</h2>
-    <table>
-      <tr>
-        <th>Course</th>
-        <th>Title</th>
-      </tr>
-      <tr class="row1">
-        <td>EG 225</td>
-        <td>Eng Graphics for Non&#8211;Engineers</td>
-      </tr>
-      <tr class="row2">
-        <td>ITM 303</td>
-        <td>Intro to OS and Hardware II</td>
-      </tr>
-      <tr class="row1">
-        <td>ITM 313</td>
-        <td>Intro to Open Source App Dev</td>
-      </tr>
-      <tr class="row2">
-        <td>ITM 497</td>
-        <td>Special Projects</td>
-      </tr>
-      <tr class="row1">
-        <td>ITMD 361</td>
-        <td>Fund of Web Development</td>
-      </tr>
-    </table> 
-  </div>
-			
-			</div>
-		</div>		
-		  
-			
-			
-			<div class="card">
-				<h2>TITLE HEADING</h2>
-				
-				
-				
-				
-				
-				<h5>Title description, Dec 7, 2017</h5>
-				<div class="fakeimg" style="height:200px;">Image</div>
-				<p>Some text..</p>
-				<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-			</div>
-			<div class="card">
-				<h2>TITLE HEADING</h2>
-				<h5>Title description, Sep 2, 2017</h5>
-				<div class="fakeimg" style="height:200px;">Image</div>
-				<p>Some text..</p>
-				<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-			</div>
-		</div>
-		<div class="rightcolumn">
-			<div class="card">
-				<h2>About Me</h2>
-				<div class="fakeimg" style="height:100px;">Image</div>
-				<p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-			</div>
-			<div class="card">
-				<h3>Popular Post</h3>
-				<div class="fakeimg"><p>Image</p></div>
-				<div class="fakeimg"><p>Image</p></div>
-				<div class="fakeimg"><p>Image</p></div>
-			</div>
-			<div class="card">
-				<h3>Follow Me</h3>
-				<p>Some text..</p>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="footer">
-  <h2>Footer</h2>
-</div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
