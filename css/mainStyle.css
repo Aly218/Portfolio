@@ -171,30 +171,32 @@ section::after {
 #column-left {
 	float: left;
 	width: 45%;
-	
-  margin: 0 auto;
-	
+	margin-right: auto;
 
-	
 }
 
 #column-right {
 	float: right;
 	width: 45%;
-	margin: 0 auto;
-
-
+	margin-left: auto;
+	
 }
 
+header, footer, #two-column, #one-column {
+	padding-right: 20%;
+	padding-left: 20%;
+
+}
 
 
 /* Media Queries */
 
 
 
-/* @650px */
+/* @650px 
 
 @media screen and (min-width: 40.625em) {
+	
   html {
     padding: 0;
   }
@@ -213,7 +215,7 @@ section::after {
 }
 
 /* @685px */
-
+/*
 @media screen and (min-width: 42.8125em) {
 	#content{
 		background-color: green;
@@ -242,7 +244,7 @@ section::after {
 }
 
 /* @930px */
-
+/*
 @media screen and (min-width: 58.125em) {
 	
 	#content{
@@ -264,10 +266,70 @@ section::after {
 }
 
 
+ /* Media Query for Mobile Devices */ 
+        
+          
+         /*Media Query for low resolution  Tablets, Ipads*/
+        @media (min-width: 481px) and (max-width: 767px) {
+            body {
+                background-color: yellow;
+            }
 
+						header, footer, #two-column, #one-column {
+							padding-right: 5%;
+							padding-left: 5%;
+						}
+	
+						p {
+							width: 100%;
+						}
+					  
+						#column-left, #column-right {
+							float: none;
+							width: 100%;
+							margin: 0 auto;
 
+						}
+					
+ 
+        }
+          
+         /*Media Query for Tablets Ipads portrait mode*/
+        @media (min-width: 768px) and (max-width: 1024px){
+            body {
+                background-color: blue;
+            }
+						
+						header, footer, #two-column, #one-column {
+							padding-right: 10%;
+							padding-left: 10%;
+						}
+	
+						p {
+							width: 75%;
+						}
+        }
+          
+         /*Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px){
+            body {
+                background-color: green;
+            }
+						
+						 header, footer, #two-column, #one-column {
+							padding-right: 15%;
+							padding-left: 15%;
+						}
+						
+						p {
+							width: 100%;
+						}
+						
+        }
+          
+      
 
-
+		
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */

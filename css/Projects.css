@@ -8,11 +8,7 @@ section{
 	margin-top: 150px;
 }
 
-.content {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 
 .i-contain {
@@ -47,6 +43,7 @@ div.gallery {
 
 div.test{
 	display: flex;
+	
 }
 
 div.gallery:hover {
@@ -75,7 +72,7 @@ div.desc {
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1960px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
@@ -95,24 +92,3 @@ div.desc {
 }
 
 
-/*Media queries for mobile view*/
-@media screen and (max-width: 800px) {
-	/*Resize images*/
-	div.test{
-	display: grid;
-  }
-
-  div.gallery img {
-		float: none;
-		width:  200px;
-		height: 200px;
-		object-fit: cover;
-		margin-top: 5px;
-  }
-	
-	/*Resize to fit in mobile view*/
-	.col-left, .col-right, .card, #iframe{
-	float: none;
-	width: 100%;
-	padding: 0;
-}
