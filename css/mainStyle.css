@@ -172,18 +172,18 @@ section::after {
 	float: left;
 	width: 45%;
 	
-  margin-right: 5%;
+  margin: 0 auto;
 	
-	padding: 10px;
+
 	
 }
 
 #column-right {
 	float: right;
 	width: 45%;
-	margin-left: 5%;
+	margin: 0 auto;
 
-  padding: 10px;
+
 }
 
 
