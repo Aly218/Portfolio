@@ -92,3 +92,24 @@ div.desc {
 }
 
 
+/*Media queries for mobile view*/
+@media screen and (max-width: 800px) {
+	/*Resize images*/
+	div.test{
+	display: grid;
+  }
+
+  div.gallery img {
+		float: none;
+		width:  100%;
+		height: auto;
+		object-fit: contain;
+  }
+	
+	/*Resize to fit in mobile view*/
+	.col-left, .col-right, .card, #iframe{
+	float: none;
+	width: 100%;
+	padding: 0;
+}
+}

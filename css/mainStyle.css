@@ -290,7 +290,18 @@ header, footer, #two-column, #one-column {
 							margin: 0 auto;
 
 						}
-					
+					  
+						#logo{
+		width: 200px;
+		height: 200px;
+	}
+	
+	.dropdown {
+  float: none;
+  overflow: hidden;
+  }
+	
+
  
         }
           
