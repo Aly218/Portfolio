@@ -161,9 +161,8 @@ header {
   padding: 20px;
   text-align: center;
   background-color: #002349;
-  margin-top: 20px;
 	color: white;
-	margin-top: 50px;
+	margin-top: 50px;	
 }
 
 
@@ -177,7 +176,8 @@ header {
 
 /* Main content */
 section{
-	margin-top: 125px;
+	margin-top: 90px;
+	margin-bottom: 90px;
 }
 
 section::after {
