@@ -270,7 +270,7 @@ header, footer, #two-column, #one-column {
         
           
          /*Media Query for low resolution  Tablets, Ipads*/
-        @media (min-width: 481px) and (max-width: 767px) {
+        @media screen and (max-width: 600px) {
             body {
                 background-color: yellow;
             }
@@ -292,17 +292,14 @@ header, footer, #two-column, #one-column {
 						}
 					  
 						#logo{
-		width: 200px;
-		height: 200px;
-	}
+							width: 200px;
+							height: 200px;
+						}
 	
-	.dropdown {
-  float: none;
-  overflow: hidden;
-  }
-	
-
- 
+						.dropdown {
+						float: none;
+						overflow: hidden;
+						}
         }
           
          /*Media Query for Tablets Ipads portrait mode*/
