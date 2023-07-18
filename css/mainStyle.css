@@ -223,9 +223,10 @@ header, footer, #two-column, #one-column, #image-column {
           
 /* Media Query for low resolution  Tablets, Ipads */
 @media screen and (max-width: 766px) {
+	/*
 	body {
 			background-color: yellow;
-	}
+	}*/
 
 	#header, #footer, #two-column, #one-column {
 		padding-right: 10%;
@@ -250,9 +251,10 @@ header, footer, #two-column, #one-column, #image-column {
 	
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 767px) and (max-width: 1024px){
+	/*
 	body {
 			background-color: pink;
-	}
+	}*/
 	
 	#header, #footer, #two-column, #one-column {
 		padding-right: 10%;
@@ -266,16 +268,17 @@ header, footer, #two-column, #one-column, #image-column {
 	
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px){
-	   body {
-			background-color: teal;
-	  }
-		 
-		 #header, #footer, #two-column, #one-column {
-			padding-right: 15%;
-			padding-left: 15%;
-		}
-		
-		p {
-			width: 100%;
-		}
+	 /*
+  body {
+	  background-color: teal;
+	}*/
+	 
+	#header, #footer, #two-column, #one-column {
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+	
+	p {
+		width: 100%;
+	}
 }
