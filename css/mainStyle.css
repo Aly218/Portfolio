@@ -290,6 +290,7 @@ header, footer, #two-column, #one-column {
 							margin: 0 auto;
 
 						}
+<<<<<<< HEAD
 
 					  
 						#logo{
@@ -297,6 +298,10 @@ header, footer, #two-column, #one-column {
 							height: 100px;
 						}
 
+=======
+					
+ 
+>>>>>>> parent of a235f99 (update)
         }
           
          /*Media Query for Tablets Ipads portrait mode*/
