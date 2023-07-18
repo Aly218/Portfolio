@@ -290,11 +290,13 @@ header, footer, #two-column, #one-column {
 							margin: 0 auto;
 
 						}
+
 					  
 						#logo{
 							width: 100px;
 							height: 100px;
 						}
+
         }
           
          /*Media Query for Tablets Ipads portrait mode*/
