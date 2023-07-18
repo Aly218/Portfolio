@@ -200,7 +200,7 @@ section::after {
 	
 }
 
-header, footer, #two-column, #one-column {
+header, footer, #two-column, #one-column, #image-column {
 	padding-right: 20%;
 	padding-left: 20%;
 }
