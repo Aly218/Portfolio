@@ -165,7 +165,12 @@ header {
 	margin-top: 50px;	
 }
 
-
+a{
+	color: white;
+	text-decoration-color: #957C3D;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+}
 
 
 
