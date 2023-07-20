@@ -220,16 +220,15 @@ section::after {
 
 #column-left {
 	float: left;
-	width: 45%;
+	width: 40%;
 	margin-right: auto;
 
 }
 
 #column-right {
 	float: right;
-	width: 45%;
-	margin-left: auto;
-	
+	width: 40%;
+	margin: auto;
 }
 
 header, footer, #two-column, #one-column, #image-column {
@@ -317,10 +316,6 @@ div.test{
 		padding-left: 10%;
 	}
 
-	p {
-		width: 100%;
-	}
-	
 	#column-left, #column-right {
 		float: none;
 		width: 100%;
@@ -343,10 +338,6 @@ div.test{
 	#header, #footer, #two-column, #one-column {
 		padding-right: 10%;
 		padding-left: 10%;
-	}
-
-	p {
-		width: 75%;
 	}
 }
 	
