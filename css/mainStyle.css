@@ -249,7 +249,8 @@ header, footer, #two-column, #one-column, #image-column {
 }
 
 .container p{
-  padding: 30px;
+  padding-left: 10px;
+	padding-right: 10px;
 	width: 100%;
 }
 
