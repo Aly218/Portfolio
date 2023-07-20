@@ -206,6 +206,9 @@ a{
 
 
 
+
+
+
 /* Main content */
 section{
 	margin-top: 90px;
@@ -235,6 +238,14 @@ header, footer, #two-column, #one-column, #image-column {
 	padding-right: 20%;
 	padding-left: 20%;
 }
+
+
+
+
+
+
+
+
 
 
 /* CSS for image text overlay */
@@ -277,27 +288,26 @@ header, footer, #two-column, #one-column, #image-column {
 }
 
 
+
+
+
+
+
+
+
+
 /*CSS for Images*/
 
 div.test{
 	display: flex;
 }
 
-
-
-/*Media queries for mobile view*/
-@media screen and (max-width: 600px) {
-	/*Resize images*/
-	div.test{
-	  display: grid;
-  }
-}
-
 #logo {
 		width: 400px;
 		height: 400px;
 	}
-
+	
+	
 
 
 
@@ -308,11 +318,19 @@ div.test{
 
 /* Media Queries */
           
+/*Media queries for mobile view*/
+@media screen and (max-width: 600px) {
+	/*Resize images*/
+	div.test {
+	  display: grid;
+  }
+}
+
 /* Media Query for low resolution  Tablets, Ipads */
 @media screen and (max-width: 766px) {
 	/*
 	body {
-			background-color: yellow;
+	  background-color: yellow;
 	}*/
 
 	#header, #footer, #two-column, #one-column {
@@ -340,7 +358,7 @@ div.test{
 @media (min-width: 767px) and (max-width: 1024px){
 	/*
 	body {
-			background-color: pink;
+	  background-color: pink;
 	}*/
 	
 	#header, #footer, #two-column, #one-column {
@@ -364,6 +382,4 @@ div.test{
 		padding-right: 15%;
 		padding-left: 15%;
 	}
-	
-	
 }
