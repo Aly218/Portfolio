@@ -249,7 +249,7 @@ header, footer, #two-column, #one-column, #image-column {
 }
 
 .container p{
-	padding-top: 20px;
+	padding-top: 10px;
   padding-left: 10px;
 	padding-right: 10px;
 	width: 100%;
@@ -278,13 +278,29 @@ header, footer, #two-column, #one-column, #image-column {
 }
 
 
-/*Media queries for images*/
-@media screen and (max-width: 600px) {
+/*CSS for Images*/
+
+div.test{
+	display: flex;
+}
+
+
+
+/*Media queries for mobile view*/
+@media screen and (max-width: 800px) {
 	/*Resize images*/
 	div.test{
 	  display: grid;
   }
 }
+
+
+
+
+
+
+
+
 
 
 /* Media Queries */
