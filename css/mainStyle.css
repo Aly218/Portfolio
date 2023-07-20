@@ -330,6 +330,10 @@ div.test{
 		width: 200px;
 		height: 200px;
 	}
+	
+	.container:hover {
+		border: 0px;
+	}
 }
 	
 /* Media Query for Tablets Ipads portrait mode */
@@ -342,6 +346,10 @@ div.test{
 	#header, #footer, #two-column, #one-column {
 		padding-right: 10%;
 		padding-left: 10%;
+	}
+	
+	.container:hover {
+		border: 0px;
 	}
 }
 	
