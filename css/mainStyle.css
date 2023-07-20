@@ -259,8 +259,6 @@ header, footer, #two-column, #one-column, #image-column {
 	
 }
 
-
-
 .container:hover {
   border: 2px solid #777;
 }
@@ -335,13 +333,7 @@ div.desc {
   clear: both;
 }
 
-/*Media queries for mobile view*/
-@media screen and (max-width: 800px) {
-	/*Resize images*/
-	div.test{
-	  display: grid;
-  }
-}
+
 
 
 
