@@ -91,6 +91,8 @@ header {
 	
 }
 
+
+
 /* Style the top navigation bar */
 #navigation{
 	width: 100%;
@@ -303,8 +305,8 @@ div.test{
 }
 
 #logo {
-		width: 350px;
-		height: 350px;
+		width: 300px;
+		height: 300px;
 	}
 	
 	
