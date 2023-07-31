@@ -84,9 +84,7 @@ header {
   text-align: center;
   background: #002349;
   border-bottom: 10px solid #957C3D;
-  width: 100%;
-	margin-bottom: 50px;
-	
+  width: 100%;	
 }
 
 
@@ -175,8 +173,7 @@ header {
   padding: 20px;
   text-align: center;
   background-color: #002349;
-	color: white;
-	margin-top: 50px;	
+	color: white;	
 }
 
 a{
@@ -211,8 +208,8 @@ a{
 
 /* Main content */
 section{
-	margin-top: 90px;
-	margin-bottom: 90px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 section::after {
